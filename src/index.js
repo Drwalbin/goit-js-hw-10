@@ -1,7 +1,7 @@
 import './css/styles.css';
 import Notiflix from 'notiflix';
 import debounce from 'lodash.debounce';
-import { fetchCountries } from './fetchCountries';
+import { fetchCountries } from './fetchCountries.js';
 
 const formInput = document.querySelector('input');
 const countryList = document.querySelector('.country-list');
